@@ -45,7 +45,7 @@ export default {
 <style scoped>
   .myInfo{
     text-align: left;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     line-height: 30px;
   }
   .photo {

@@ -105,7 +105,7 @@ export default {
   .content-list {
     font-size: 16px;
     margin-top: 15px;
-    line-height: 1.4;
+    line-height: 1.5;
   }
   .box {
     padding: 15px;
