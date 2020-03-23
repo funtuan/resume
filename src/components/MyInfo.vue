@@ -11,8 +11,11 @@
       </div>
       <div class="content" v-html="info.description">
       </div>
-      <div class="github">
-        <a href="https://github.com/funtuan">https://github.com/funtuan</a>
+      <div class="urls">
+        <i class="el-icon-user icon"></i>
+        <a href="https://github.com/funtuan">https://github.com/funtuan</a><br>
+        <i class="el-icon-message icon"></i>
+        <a href="mailto:hank85627@gmail.com">hank85627@gmail.com</a>
       </div>
   </div>
 </template>
@@ -32,8 +35,8 @@ export default {
         nickname: 'FunTuan',
         job: '全端工程師',
         description: `
-        後端目前以 Node.js 為主，未來想多使用 Golang 開發，早期則用 PHP<br>
-        前端以 Vue 為主，習慣 SPA 架構<br>
+        後端 Node.js 為主，未來想多使用 Golang 開發，早期則用 PHP<br>
+        前端 Vue 為主，習慣 SPA 架構<br>
         除網頁外，也熱愛開發 ChatBot、Chrome Extension 等網路應用
         `,
       },
@@ -62,16 +65,20 @@ export default {
   .content {
     color: #353535;
     margin-top: 8px;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.7;
   }
-  .github {
+  .urls {
     margin-top: 8px;
     font-size: 13px;
   }
+  .icon {
+    font-size: 15px;
+    margin-right: 4px;
+  }
   a {
     font-weight: bold;
-    color: #0366d6;
+    color: #5c7ca1;
     text-decoration: none;
   }
   a:hover {
